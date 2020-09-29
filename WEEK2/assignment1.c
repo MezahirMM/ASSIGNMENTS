@@ -9,7 +9,7 @@ int a, b;
 a = 50;
 b = 100;
 
-printf("Before changing a=%d, b=%d",a,b);
+printf("Before changing a=%d, b=%d\n",a,b);
 
 int_swap(&a,&b);
 
@@ -25,5 +25,4 @@ int num;
 num = *val1;
 *val1 = *val2;
 *val2 = num;
-
 }
