@@ -1,2 +1,2 @@
-# Assignment2
-Repository for the assignemnt
+# Assignment1
+Repository for the assignments
