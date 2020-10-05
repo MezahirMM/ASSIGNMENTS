@@ -8,9 +8,11 @@ int main(){
     int len = sizeof(a1)/sizeof(int);
     int *arr2D[2] = {a1,a2};            // a 2 length array of int pointers, 
                                         // remember an int pointer pointing to [0] of an array 
-                                        // is all you need to point to an array
+    					// is all you need to point to an array
+    printf("Before:\n");
     print2DArr(arr2D, 2, len);
     swapArrays(a1, a2, len);
+    printf("After:\n");
     print2DArr(arr2D, 2, len);
     return 0;
 }
