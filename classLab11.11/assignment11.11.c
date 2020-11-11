@@ -18,6 +18,8 @@ void function(char *source, char *integers, char *nonInteger)
 			b++;
 		}
 	}
+	integers[a] = '\0';
+	nonInteger[b] = '\0';
 	printf("Integers:%s nonIntegers:%s\n",integers, nonInteger);
 }
 
